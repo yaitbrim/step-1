@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Roboto&family=Teko:wght@500&display=swap');
+
+
+
+body {
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #FFE4C4;
+}
+
+.printKagyja1 {
+
+  padding: 0px 0% 20px 0%;
+}
+
+.printKagyja {
+  box-shadow: 5px 5px 15px rgb(226, 158, 93);
+  border-radius: 15%;
+
+}
+
+.conteiner {
+
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  /*Устанавливаем направление колонки*/
+  justify-content: flex-start;
+  /* Центрирование по вертикали*/
+  align-items: center;
+  /*Центрирование по горизонтали*/
+  height: 180vh;
+  /*Занимает всю высоту окна браузера*/
+  margin: auto;
+  /*Убирает отступы по умолчанию */
+  padding: 0px 25% 0px 25%;
+
+
+
+}
+
+/* .header */
+
+
+/*  */
+
+.grope1 {
+ /* font-family: 'Teko';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Центрирование по горизонтали */
+  /* justify-content: center; */
+  /* Центрирование по вертикали */
+  /* height: 25vh; */
+  /* Занимает всю высоту окна браузера */
+  /* margin: -10px; */
+  /* Убирает отступы по умолчанию */
+  /* font-size: 25px; */
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Teko'
+}
+
+.header {
+  display: block;
+  font-family: 'Teko';
+  text-align: center;
+  
+}
+
+.head1 {
+  color: #e06ae4;
+}
+
+.head2 {
+  color: #8ce67ae7;
+}
+
+.head3 {
+  color: rgb(226, 158, 93);
+}
+
+/*  */
+
+nav {
+  /* Cтили для навигационного блока */
+  font-style: italic;
+
+
+}
+
+nav ul {
+  list-style: none;
+  /* Убираем маркеры списка */
+  padding: 0;
+  /* Убираем внутренние отступы */
+  /* Cтили для списка ссылок */
+}
+
+nav li {
+  /* Cтили для элементов списка */
+
+  display: inline-block;
+  /* Располагаем элементы списка горизонтально */
+  margin-right: 10px;
+  /* Добавляем небольшой отступ между ссылками */
+
+}
+
+nav a {
+  /* Cтили для ссылок */
+
+  text-decoration: none;
+  /* Убираем подчеркивание ссылок */
+  padding: 5px 10px;
+  /* Добавляем отступы вокруг текста ссылок */
+  background-color: #c819ce;
+  /* Задаем цвет фона для ссылок */
+  color: #fff;
+  /* Задаем цвет текста ссылок */
+  border-radius: 50%;
+
+
+}
+
+.card1 {
+  border: 6px solid rgb(235, 170, 113);
+  border-radius: 15px;
+  width: 300px;
+  /* Устанавливаем фиксированную ширину контейнера */
+  margin: 0 auto;
+  /* Центрируем контейнер по горизонтали */
+  text-align: center;
+  /* Выравниваем текст по центру */
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+}
+
+
+
+.card2 {
+  border: 6px solid rgb(235, 170, 113);
+  border-radius: 15px;
+  border-collapse: collapse;
+  /* Объединяем границы ячеек */
+  font-family: 'Teko';
+}
+
+.card2 th {
+  background-color: #e296ec;
+  /* Цвет фона заголовков */
+  border: 1px solid #000;
+  /* Граница ячеек заголовков */
+  padding: 8px;
+  /* Внутренний отступ */
+  text-align: center;
+  /* Выравнивание текста по центру */
+  border: none;
+  border-radius: 15%;
+}
+
+.card2 td {
+  border: 1px solid #000;
+  /* Граница ячеек */
+  padding: 8px;
+  /* Внутренний отступ */
+  text-align: center;
+  /* Выравнивание текста по центру */
+  border: none;
+}
+
+
+
+footer h2 {
+  width: 50%;
+  padding: auto;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Teko';
+
+
+}
+
+.card3 {
+  font-family: 'Teko';
+  border: 6px solid rgb(235, 170, 113);
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  /* Убираем подчеркивание ссылок */
+  padding: 5px 10px;
+  /* Добавляем отступы вокруг текста ссылок */
+  color: #e97c7c;
+  /* Задаем цвет текста ссылок */
+  font-size: 20px;
+
+}
+
+.card3 a {
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background: #c819ce;
+
+}
+
+a:hover {
+  background: #7d4385;
+}
+
+a:active {
+  color: #e97c7c;
+}
+
+/* a:visited {
+  color: rgb(248, 248, 248);
+}
+ */
+
+.lists {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 15px;
+  font-family: 'Teko';
+  font-size: 20px;
+}
+
+.lists li:hover {
+  background: #e296ec;
+}
+
+/* .lists li:nth-child(3) {
+  background: #e06ae4;
+ } */
+
+.table td:nth-child(1),
+.table td:nth-child(3) {
+  color: #7d4385;
+}
+
+.table {
+  font-size: 20px;
+}
+
+.lablel1,
+.lablel2,
+.lablel3 {
+  text-align: center;
+  /* Центрируем текст и поле ввода */
+  margin-top: 10px;
+
+
+}
+
+footer {
+  background: #f0bd807e;
+  font-family: 'Teko';
+  border-radius: 5%;
+  margin: 15px 15px;
+  padding: 10px 40px 10px 40px;
+}
+
+.h2footer {
+  text-align: center;
+}
+
+.inp1 {
+ border: none;
+ box-shadow: 5px 5px 15px #be8b4cde;
+ background:  #f0bd807e;
+ border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+.inp2 {
+ border: none;
+ box-shadow: 5px 5px 15px #be8b4cde;
+ background:  #f0bd807e;
+ border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+textarea {
+background: #f2c694;
+border: none;
+box-shadow: 5px 5px 15px #be8b4cde;
+text-align: center;
+border-radius: 10px;
+max-width: 380px;
+min-width: 380px;
+max-height: 100px;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 15px 20px;
+  background: #e296ec;
+  color: #685959;
+  font-size: 15px;
+  border: none;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.inp1:focus {
+  outline: none;
+}
+
+.inp2:focus {
+  outline: none;
+}
+
+
+
